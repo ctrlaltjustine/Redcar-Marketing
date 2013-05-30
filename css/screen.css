@@ -66,3 +66,12 @@ ul .features {
 #undercon {
     list-style-image: url(../img/li-undercon.png);
 }
+footer {
+	background : #252c2b;
+	font-family: 'Roboto Slab' serif; font-weight: 700;
+	font-size: 16px;
+	color: #ffffff;
+	text-transform: uppercase;
+	text-align: center;
+	padding : 20px 0 20px 0;
+}
