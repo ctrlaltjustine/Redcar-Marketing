@@ -5,18 +5,22 @@ body {
 	line-height : 17px;
 	color       : #404041;
 }
+
 .container {
 	width : 100%;
 }
+
 .row {
 	padding : 0 20px 0 20px;
 }
+
 nav {
     margin         : 0;
     padding        : 10px 0 0 0;
     text-align     : center;
 	font-family    : 'Open Sans', serif; font-weight: 600;
 	text-transform : uppercase;
+	position       : relative;
 }
 nav li {
 	display    : inline;
@@ -30,25 +34,31 @@ nav a {
 	line-height : 2em;
 	height      : 100%;
 }
+
 .hero {
-	background : #78bab5;
-	height : 300px;
+	background  : #78bab5;
+	height      : 300px;
 	padding-top : 20px;
-	z-index    : 1000;
+	position    : relative;
+	z-index     : 1000;
 }
+
 .computer-carousel {
-	top      : 75px;
+	bottom   : 0;
 	position : absolute;
 }
+
 .rc-logo {
 	display        : inline;
 	vertical-align : baseline;
 }
+
 .rc-features {
 	background : #e2d276;
 	padding    : 70px 0 50px 0;
 	z-index    : 1;
 }
+
 h2 {
 	font-family    : 'Open Sans', serif; font-weight: 800;
 	font-size      : 16px;
@@ -56,21 +66,21 @@ h2 {
 	letter-spacing : 1px;
 	text-transform : uppercase;
 }
+
 ul .features {
     list-style : none;
 }
 #uncluttered {
-    list-style-image:  url(../img/li-uncluttered.png);
-    margin-left : 10px;
-
+    list-style-image :  url(../img/li-uncluttered.png);
+    margin-left      : 10px;
 }
 #textmate {
     list-style-image : url(../img/li-textmate.png);
-    margin-left : 10px;
+    margin-left      : 10px;
 }
 #ruby {
     list-style-image : url(../img/li-ruby.png);
-    margin-left : 10px;
+    margin-left      : 10px;
 }
 #extensible {
     list-style-image : url(../img/li-extensible.png);
@@ -78,12 +88,13 @@ ul .features {
 }
 #github {
     list-style-image : url(../img/li-github.png);
-    margin-left : 10px;
+    margin-left      : 10px;
 }
 #undercon {
     list-style-image : url(../img/li-undercon.png);
-    margin-left : 10px;
+    margin-left      : 10px;
 }
+
 footer {
 	font-family    : 'Roboto Slab' serif; font-weight: 700;
 	font-size      : 16px;
@@ -116,13 +127,13 @@ footer {
 		top            : 200px;
 	}
 	.row {
-		width: 100%;
-  		margin-left: auto;
-		margin-right: auto;
-		margin-top: 0;
-		margin-bottom: 0;
-		max-width: 62.5em;
-		*zoom: 1;
+		width         : 100%;
+  		margin-left   : auto;
+		margin-right  : auto;
+		margin-top    : 0;
+		margin-bottom : 0;
+		max-width     : 62.5em;
+		*zoom         : 1;
 	}
 	nav a {
 		line-height : 68px;
