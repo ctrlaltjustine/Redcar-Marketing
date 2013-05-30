@@ -1,12 +1,13 @@
+body {
+	background: #78bab5;
+	font-family: 'Open Sans', serif; font-weight: 600;
+	font-size: 16px;
+	line-height: 17px;
+	color : #404041;
+}
 .container {
 	width: 100%
 }
-
-body {
-	background: #78bab5;
-	color : #404041;
-}
-
 nav {
 	background : #252c2b;
     margin:0;
@@ -15,13 +16,11 @@ nav {
 	font-family: 'Open Sans', serif; font-weight: 600;
 	text-transform: uppercase;
 }
-
-nav li{
+nav li {
 	display: inline;
 	list-style: disc none;
 }
-
-nav a{
+nav a {
 	display: inline-block;
 	padding: 0 5px 0 5px;
 	color: #ffffff;
@@ -29,32 +28,41 @@ nav a{
 	line-height: 68px;
 	height : 100%;
 }
-
 .rc-logo {
-	margin-top: 30px;
+	display: inline;
+	vertical-align: baseline;
+	position: relative;
 }
-
 .rc-features {
 	background : #e2d276;
+	padding : 50px 0 50px 0;
 }
-
 h2 {
 	font-family: 'Open Sans', serif; font-weight: 800;
 	font-size: 16px;
+	color : #474747;
+	letter-spacing: 1px;
 	text-transform: uppercase;
 }
 
-ul #features
-{
+ul .features {
     list-style: none;
 }
-
-#uncluttered
-{
+#uncluttered {
     list-style-image: url(../img/li-uncluttered.png);
 }
-
-#contact_list #i18l_phone
-{
-    list-style-image: url(images/i18l_wood_phone.png);
+#textmate {
+    list-style-image: url(../img/li-textmate.png);
+}
+#ruby {
+    list-style-image: url(../img/li-ruby.png);
+}
+#extensible {
+    list-style-image: url(../img/li-extensible.png);
+}
+#github {
+    list-style-image: url(../img/li-github.png);
+}
+#undercon {
+    list-style-image: url(../img/li-undercon.png);
 }
