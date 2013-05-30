@@ -1089,8 +1089,7 @@ td {
 /* Default Link Styles */
 a {
   color: #2ba6cb;
-  text-decoration: none;
-  line-height: inherit; }
+  text-decoration: none;}
   a:hover, a:focus {
     color: #2795b6; }
   a img {

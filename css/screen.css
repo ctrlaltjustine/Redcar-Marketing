@@ -37,14 +37,14 @@ nav a {
 
 .hero {
 	background  : #78bab5;
-	height      : 300px;
+	height      : 450px;
 	padding-top : 20px;
 	position    : relative;
 	z-index     : 1000;
 }
 
 .computer-carousel {
-	bottom   : 0;
+	bottom   : -450px;
 	position : absolute;
 }
 
@@ -102,6 +102,11 @@ footer {
 	text-transform : uppercase;
 	text-align     : center;
 	padding        : 20px 0 20px 0;
+}
+footer a {
+	display     : inline-block;
+	color       : #ffffff;
+	font-size   : 16px;
 }
 
 .copyright {
