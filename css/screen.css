@@ -1,5 +1,5 @@
 body {
-	background: #78bab5;
+	background: #252c2b;
 	font-family: 'Open Sans', serif; font-weight: 600;
 	font-size: 16px;
 	line-height: 17px;
@@ -9,7 +9,6 @@ body {
 	width: 100%
 }
 nav {
-	background : #252c2b;
     margin:0;
     padding: 10px 0 0 0;
     text-align:center;
@@ -28,14 +27,26 @@ nav a {
 	line-height: 68px;
 	height : 100%;
 }
+.hero {
+	background : #78bab5;
+	padding : 50px 0 50px 0;
+	height: 450px;
+	z-index : 1000;
+}
+.computer-carousel {
+	top : 75px;
+	position: absolute;
+}
 .rc-logo {
 	display: inline;
 	vertical-align: baseline;
-	position: relative;
+	position: absolute;
+	top : 200px;
 }
 .rc-features {
 	background : #e2d276;
-	padding : 50px 0 50px 0;
+	padding : 70px 0 50px 0;
+	z-index: 1;
 }
 h2 {
 	font-family: 'Open Sans', serif; font-weight: 800;
@@ -67,7 +78,6 @@ ul .features {
     list-style-image: url(../img/li-undercon.png);
 }
 footer {
-	background : #252c2b;
 	font-family: 'Roboto Slab' serif; font-weight: 700;
 	font-size: 16px;
 	color: #ffffff;
