@@ -1,87 +1,98 @@
 body {
-	background: #252c2b;
-	font-family: 'Open Sans', serif; font-weight: 600;
-	font-size: 16px;
-	line-height: 17px;
-	color : #404041;
+	background  : #252c2b;
+	font-family : 'Open Sans', serif; font-weight: 600;
+	font-size   : 16px;
+	line-height : 17px;
+	color       : #404041;
 }
 .container {
-	width: 100%
+	width : 100%;
 }
 nav {
-    margin:0;
-    padding: 10px 0 0 0;
-    text-align:center;
-	font-family: 'Open Sans', serif; font-weight: 600;
-	text-transform: uppercase;
+    margin         :0;
+    padding        : 10px 0 0 0;
+    text-align     :center;
+	font-family    : 'Open Sans', serif; font-weight: 600;
+	text-transform : uppercase;
 }
 nav li {
-	display: inline;
-	list-style: disc none;
+	display    : inline;
+	list-style : disc none;
 }
 nav a {
-	display: inline-block;
-	padding: 0 5px 0 5px;
-	color: #ffffff;
-	font-size: 16px;
-	line-height: 68px;
-	height : 100%;
+	display     : inline-block;
+	padding     : 0 1% 0 1%;
+	color       : #ffffff;
+	font-size   : 16px;
+	line-height : 68px;
+	height      : 100%;
 }
 .hero {
 	background : #78bab5;
-	padding : 50px 0 50px 0;
-	height: 450px;
-	z-index : 1000;
+	padding    : 50px 0 50px 0;
+	height     : 450px;
+	z-index    : 1000;
 }
 .computer-carousel {
-	top : 75px;
-	position: absolute;
+	top      : 75px;
+	position : absolute;
 }
 .rc-logo {
-	display: inline;
-	vertical-align: baseline;
-	position: absolute;
-	top : 200px;
+	display        : inline;
+	vertical-align : baseline;
+	position       : absolute;
+	top            : 200px;
 }
 .rc-features {
 	background : #e2d276;
-	padding : 70px 0 50px 0;
-	z-index: 1;
+	padding    : 70px 0 50px 0;
+	z-index    : 1;
 }
 h2 {
-	font-family: 'Open Sans', serif; font-weight: 800;
-	font-size: 16px;
-	color : #474747;
-	letter-spacing: 1px;
-	text-transform: uppercase;
+	font-family    : 'Open Sans', serif; font-weight: 800;
+	font-size      : 16px;
+	color          : #474747;
+	letter-spacing : 1px;
+	text-transform : uppercase;
 }
 
 ul .features {
-    list-style: none;
+    list-style : none;
 }
 #uncluttered {
-    list-style-image: url(../img/li-uncluttered.png);
+    list-style-image:  url(../img/li-uncluttered.png);
 }
 #textmate {
-    list-style-image: url(../img/li-textmate.png);
+    list-style-image : url(../img/li-textmate.png);
 }
 #ruby {
-    list-style-image: url(../img/li-ruby.png);
+    list-style-image : url(../img/li-ruby.png);
 }
 #extensible {
-    list-style-image: url(../img/li-extensible.png);
+    list-style-image : url(../img/li-extensible.png);
 }
 #github {
-    list-style-image: url(../img/li-github.png);
+    list-style-image : url(../img/li-github.png);
 }
 #undercon {
-    list-style-image: url(../img/li-undercon.png);
+    list-style-image : url(../img/li-undercon.png);
 }
 footer {
-	font-family: 'Roboto Slab' serif; font-weight: 700;
-	font-size: 16px;
-	color: #ffffff;
-	text-transform: uppercase;
-	text-align: center;
-	padding : 20px 0 20px 0;
+	font-family    : 'Roboto Slab' serif; font-weight: 700;
+	font-size      : 16px;
+	color          : #ffffff;
+	text-transform : uppercase;
+	text-align     : center;
+	padding        : 20px 0 20px 0;
+}
+
+.copyright {
+	display  : inline;
+	position : relative;
+	right    : 0;
+}
+
+.copyright p {
+	font-size : 12px;
+	color     : #666665;
 }
